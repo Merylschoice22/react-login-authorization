@@ -3,15 +3,14 @@ import { Link } from "react-router-dom";
 
 const Register = () => {
   return (
-    <div>
+    <div className="register">
       <h1>Register!</h1>
-      <form>
+      <form className="form">
         <input type="text" placeholder="Name"></input>
         <input type="text" placeholder="Email"></input>
         <input type="password" placeholder="Password"></input>
         <button>SUBMIT</button>
       </form>
-      <Link to="/home">Home</Link>
     </div>
   );
 };

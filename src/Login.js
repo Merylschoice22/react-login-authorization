@@ -3,14 +3,13 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <div>
+    <div className="login">
       <h1>Login!</h1>
-      <form>
+      <form className="form">
         <input type="text" placeholder="Email"></input>
         <input type="password" placeholder="Password"></input>
         <button>LOG IN</button>
       </form>
-      <Link to="/home">Home</Link>
     </div>
   );
 };
