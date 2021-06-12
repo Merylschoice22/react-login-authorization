@@ -6,7 +6,10 @@ const Register = () => {
     <div>
       <h1>Register!</h1>
       <form>
-        <input></input>
+        <input type="text" placeholder="Name"></input>
+        <input type="text" placeholder="Email"></input>
+        <input type="password" placeholder="Password"></input>
+        <button>SUBMIT</button>
       </form>
       <Link to="/home">Home</Link>
     </div>

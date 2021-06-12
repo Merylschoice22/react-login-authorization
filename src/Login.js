@@ -6,7 +6,9 @@ const Login = () => {
     <div>
       <h1>Login!</h1>
       <form>
-        <input></input>
+        <input type="text" placeholder="Email"></input>
+        <input type="password" placeholder="Password"></input>
+        <button>LOG IN</button>
       </form>
       <Link to="/home">Home</Link>
     </div>
