@@ -13,7 +13,7 @@ function App() {
         <header>
           <div className="header-text">
             <h1>Single Sandal Saviors</h1>
-            <h3>Because no sandal should be alone</h3>
+            <h3>...because no sandal should be alone!</h3>
           </div>
           <Navbar />
         </header>
