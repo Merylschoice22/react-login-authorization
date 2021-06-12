@@ -8,19 +8,85 @@
   align-items: center;
   justify-content: center;
 }
-
-.App {
-  background-color: #f1d67d;
-  color: rgb(159, 114, 219);
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  padding: 5em;
+body {
+  background-color: rgb(255, 197, 90);
+  color: tomato;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
 }
 
+Switch {
+  padding: 0 10em;
+}
+
+.home,
+.login,
+.register {
+  background-color: white;
+  margin: 5em;
+  padding: 1em 5em 2.5em 5em;
+  width: 45em;
+}
+
+header {
+  background-color: rgb(247, 247, 112);
+  /* border-bottom: 2px solid rgb(159, 114, 219); */
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+}
+
+.header-text {
+  background-color: turquoise;
+  border-radius: 25px;
+  padding: 0 5em;
+}
+.header-text h1 {
+  margin: 0.5em 0 0 0;
+}
+.header-text h3 {
+  margin: 0.5em 0em 1em 0;
+}
+
+.navbar {
+  margin-right: 1.5em;
+}
+.navbar a {
+  background-color: turquoise;
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0.5em;
+  padding: 0.7em 1em;
+  margin: 0 0.3em;
+}
+
+.home h1 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.first-letter {
+  font-size: 2em;
+}
+
+.headline {
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
+.text {
+  font-weight: 500;
+}
 .form input {
   border-radius: 2em;
   font-size: medium;
   height: 2em;
-  width: 20em;
+  width: 25em;
   margin: 0.2em;
 }
 
@@ -33,5 +99,6 @@
 button {
   border-radius: 1em;
   background-color: rgb(120, 218, 221);
+  margin-top: 0.2em;
   padding: 0.9em;
 }

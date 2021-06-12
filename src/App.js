@@ -10,9 +10,13 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <h1>Single Sandal Saviors</h1>
-        <h3>Because no sandal should be alone</h3>
-        <Navbar />
+        <header>
+          <div className="header-text">
+            <h1>Single Sandal Saviors</h1>
+            <h3>Because no sandal should be alone</h3>
+          </div>
+          <Navbar />
+        </header>
         <Switch>
           <Route path="/login" component={Login} />
 
